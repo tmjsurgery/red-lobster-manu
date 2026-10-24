@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@theme {
+  --color-brand-red: #7c1d27;
+  --color-brand-red-dark: #5a131b;
+  
+  --color-brand-bg: #FFFFFF;
+  --color-brand-text: #333333;
+}
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: inherit;
+  @apply text-gray-800 bg-gray-50;
+}
