@@ -31,20 +31,36 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  title: "Red Lobster Menu & Prices Guide 2026 | Daily Deals & Coupons",
-  description: "The ultimate guide for Red Lobster menu, estimated prices, daily deals, happy hour specials, and the latest news for 2026.",
+  title: {
+    default: "Red Lobster Menu - Official Fresh Seafood",
+    template: "%s | Red Lobster Menu - Official Fresh Seafood",
+  },
+  description:
+    "Explore the complete Red Lobster menu with official fresh seafood prices for 2026. Discover lobster feasts, shrimp specials, $10 lunch deals, and calorie guides.",
+  keywords: [
+    "Red Lobster menu",
+    "official fresh seafood",
+    "Red Lobster menu prices",
+    "Red Lobster seafood feasts",
+    "Red Lobster lunch specials",
+    "Red Lobster dinner prices",
+    "Red Lobster calories",
+    "Red Lobster daily deals 2026",
+  ],
   openGraph: {
-    title: "Red Lobster Menu & Prices Guide 2026",
-    description: "The ultimate guide for Red Lobster menu, estimated prices, and daily deals.",
+    title: "Red Lobster Menu - Official Fresh Seafood",
+    description:
+      "Explore the complete Red Lobster menu with official fresh seafood prices for 2026. Discover lobster feasts, shrimp specials, $10 lunch deals, and calorie guides.",
     url: "https://redlobstermenu.site",
-    siteName: "The Red Lobster Menu Guide",
+    siteName: "Red Lobster Menu - Official Fresh Seafood",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Red Lobster Menu & Prices Guide 2026",
-    description: "Guide for Red Lobster menu, estimated prices, and daily deals.",
+    title: "Red Lobster Menu - Official Fresh Seafood",
+    description:
+      "Explore the complete Red Lobster menu with official fresh seafood prices for 2026. Discover lobster feasts, shrimp specials, $10 lunch deals, and calorie guides.",
   },
   icons: {
     icon: [

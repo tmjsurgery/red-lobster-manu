@@ -2,7 +2,11 @@ import { MetadataRoute } from "next";
 import { categories } from "@/lib/data";
 import { blogPosts } from "@/lib/blogData";
 
-const BASE_URL = "https://redlobstermenu.site";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://redlobstermenu.site");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

@@ -1,7 +1,11 @@
 import { categories, menuItems } from "@/lib/data";
 import { blogPosts } from "@/lib/blogData";
 
-const BASE_URL = "https://redlobstermenu.site";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "https://redlobstermenu.site");
 
 function escapeXml(value: string): string {
   return value

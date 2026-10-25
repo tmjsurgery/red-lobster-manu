@@ -7,23 +7,24 @@ import PriceTable from "@/components/ui/PriceTable";
 import MenuInterlink from "@/components/layout/MenuInterlink";
 
 export const metadata = {
-  title: "Red Lobster Menu & Prices Guide 2026 | Full Food & Calorie Guide",
+  title: "Red Lobster Menu - Official Fresh Seafood",
   description:
-    "Explore the complete Red Lobster menu prices for 2026. Browse accurate prices, calories, $10 lunch specials, dinner feasts, daily deals, and coupon savings.",
+    "Explore the complete Red Lobster menu with official fresh seafood prices for 2026. Discover lobster feasts, shrimp specials, $10 lunch deals, and calorie guides.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Red Lobster Menu & Prices Guide 2026 | Full Food & Calorie Guide",
+    title: "Red Lobster Menu - Official Fresh Seafood",
     description:
-      "Complete guide to the Red Lobster menu with 2026 prices, calories, $10 lunch specials, dinner feasts, and daily deals.",
+      "Explore the complete Red Lobster menu with official fresh seafood prices for 2026. Discover lobster feasts, shrimp specials, $10 lunch deals, and calorie guides.",
     url: "https://redlobstermenu.site",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Red Lobster Menu & Prices Guide 2026",
-    description: "Complete guide to the Red Lobster menu with 2026 prices and calories.",
+    title: "Red Lobster Menu - Official Fresh Seafood",
+    description:
+      "Explore the complete Red Lobster menu with official fresh seafood prices for 2026. Discover lobster feasts, shrimp specials, $10 lunch deals, and calorie guides.",
   },
 };
 
