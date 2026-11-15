@@ -112,5 +112,43 @@ export const blogPosts: BlogPost[] = [
       <h2>Taking the Magic Home</h2>
       <p>Did you know you can buy Cheddar Bay Biscuit mix at most major grocery stores? While baking them at home is a fun weekend activity, purists argue that the restaurant ovens and the atmosphere are what truly make them special. Whether at home or in a booth, the Cheddar Bay Biscuit remains an undefeated champion of restaurant bread baskets.</p>
     `
-  }
+  },  {
+    id: "4",
+    slug: "first-time-red-lobster-5-dishes-to-try",
+    title: "Visiting Red Lobster for the First Time? Try These 5 Dishes First",
+    excerpt: "Confused by the big menu? Here are the 5 best, safest and most delicious dishes to order on your very first visit to Red Lobster.",
+    image: "/images/red-lobster-first-visit.jpg",
+    author: "Seafood Expert",
+    date: "November 16, 2026",
+    readTime: "6 min read",
+    category: "Beginner Guide",
+    content: `
+      <p>Walking into Red Lobster for the first time can feel a little overwhelming. The menu is huge, everything sounds delicious, and you do not want to waste money on the wrong dish. Do not worry, we have made it simple for you.</p>
+      <p>Here are the 5 best dishes to try on your first visit. These are loved by almost everyone, easy to enjoy, and give you the real taste of Red Lobster.</p>
+
+      <h2>1. Ultimate Feast</h2>
+      <p>If you want to taste a little bit of everything, this is the best choice. You get lobster, shrimp, and crab in one plate. It is a little pricey, but perfect for a first-time celebration.</p>
+
+      <h2>2. Garlic Shrimp Scampi</h2>
+      <p>Soft shrimp cooked in garlic butter. This is simple, tasty, and a favorite of almost every visitor. Eat it with Cheddar Bay Biscuits to mop up the sauce.</p>
+
+      <h2>3. Cheddar Bay Biscuits</h2>
+      <p>These come free with your meal. Warm, cheesy, and soft with garlic butter on top. Most people say these biscuits alone are worth the visit.</p>
+
+      <h2>4. New England Clam Chowder</h2>
+      <p>Creamy, warm, and comforting. A perfect starter, especially if you are visiting in winter. Dip your biscuit in it and enjoy.</p>
+
+      <h2>5. Lobster Bisque</h2>
+      <p>Smooth, rich, and a little fancy. If you want to feel like you are eating something special, order this soup. It is a true Red Lobster classic.</p>
+
+      <h2>Quick Tip for First-Timers</h2>
+      <ul>
+        <li><strong>Do not over-order:</strong> Portions are big, start with one main dish.</li>
+        <li><strong>Ask for extra biscuits:</strong> They are free and everyone asks for more.</li>
+        <li><strong>Check the deals:</strong> Weekday lunch deals save you a lot of money.</li>
+      </ul>
+
+      <p>Start with these 5, and your first Red Lobster visit will be perfect. After that, you can explore the rest of the menu with confidence.</p>
+    `,
+  },  
 ];
