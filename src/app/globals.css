@@ -1,25 +1,205 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
 @theme {
-  --color-brand-red: #7c1d27;
-  --color-brand-red-dark: #5a131b;
+  --color-brand-red: #B33A3A;
+  --color-brand-red-hover: #992F2F;
+  --color-brand-red-dark: #7A1F26;
+  --color-brand-red-light: #FFF5F5;
+  --color-brand-red-accent: #C8102E;
   
   --color-brand-bg: #FFFFFF;
-  --color-brand-text: #333333;
+  --color-brand-text: #2D3748;
 }
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  background-color: var(--color-brand-bg);
-  color: var(--color-brand-text);
+  background-color: #F8FAFC;
+  color: #2D3748;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+body, h1, h2, h3, h4, h5, h6, input, select, textarea, button {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
-  font-family: inherit;
-  @apply text-gray-800 bg-gray-50;
+  color: #334155;
+  background-color: #F8FAFC;
+}
+
+/* ────────────────────────────────────────────────────────────
+   COMPETITOR EXACT DESIGN SPECIFICATIONS
+   Extracted directly from https://lobsterpriceguide.com/dinner-menu/
+   ──────────────────────────────────────────────────────────── */
+
+/* Competitor Boxed Content Wrapper */
+.competitor-content-wrap {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #EAD9D9;
+  box-shadow: 0px 10px 25px -5px rgba(0, 0, 0, 0.04);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .competitor-content-wrap {
+    padding: 2.5rem 3rem;
+  }
+}
+
+/* Signature Lobster-Red Pill Heading (.section-pill-banner & .pill-heading) */
+.category-pill,
+.pill-heading,
+.competitor-pill-heading,
+.section-pill-banner {
+  background: #B33A3A;
+  color: #FFFFFF;
+  border-radius: 999px;
+  text-align: center;
+  padding: 10px 24px;
+  font-weight: 700;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  margin-bottom: 16px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(179, 58, 58, 0.2);
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 640px) {
+  .category-pill,
+  .pill-heading,
+  .competitor-pill-heading,
+  .section-pill-banner {
+    font-size: 1.65rem;
+    padding: 12px 32px;
+  }
+}
+
+.category-pill:hover,
+.pill-heading:hover,
+.competitor-pill-heading:hover,
+.section-pill-banner:hover {
+  background: #992F2F;
+}
+
+/* Verification & Research Trust Bar */
+.research-meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8125rem;
+  color: #475569;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  padding: 12px 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+/* Callout Summary Box */
+.callout-box {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F5 100%);
+  border-left: 4px solid #B33A3A;
+  border-top: 1px solid #F1F5F9;
+  border-right: 1px solid #F1F5F9;
+  border-bottom: 1px solid #F1F5F9;
+  border-radius: 16px;
+  padding: 20px 24px;
+  color: #334155;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+}
+
+/* Signature Competitor Table Design */
+.competitor-table-container,
+.wp-block-table {
+  border: 1px solid #EAD9D9;
+  border-radius: 16px;
+  background: #FFFFFF;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+  margin-bottom: 28px;
+}
+
+.competitor-table-container table,
+.wp-block-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.competitor-table-container thead th,
+.wp-block-table thead th,
+.wp-block-table table tr:first-child td {
+  background-color: #B33A3A;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: left;
+  padding: 14px 18px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  border: none;
+}
+
+.competitor-table-container thead th:first-child,
+.wp-block-table thead th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.competitor-table-container thead th:last-child,
+.wp-block-table thead th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.competitor-table-container tbody td,
+.wp-block-table tbody td {
+  padding: 13px 18px;
+  border: none;
+  border-top: 1px solid #F0E3E3;
+  color: #334155;
+  font-size: 0.875rem;
+  vertical-align: middle;
+}
+
+.competitor-table-container tbody tr:last-child td,
+.wp-block-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.competitor-table-container tbody tr:last-child td:first-child,
+.wp-block-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.competitor-table-container tbody tr:last-child td:last-child,
+.wp-block-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.competitor-table-container tbody tr:hover,
+.wp-block-table tbody tr:hover td {
+  background-color: #FFF8F8;
+}
+
+/* Card Hover Elevation */
+.lobster-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.lobster-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(179, 58, 58, 0.35);
 }

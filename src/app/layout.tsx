@@ -1,18 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { Poppins } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
 export const viewport: Viewport = {
-  themeColor: "#7c1d27",
+  themeColor: "#B33A3A",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
@@ -107,6 +100,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
         <meta name="monetag" content="9ca4f650383be3ae463c0a9521bf8a53" />
         <script src="https://quge5.com/88/tag.min.js" data-zone="274992" async data-cfasync="false"></script>
         <script
@@ -127,9 +126,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body
-        className={`${poppins.variable} font-sans antialiased flex flex-col min-h-screen`}
-      >
+      <body className="font-sans antialiased flex flex-col min-h-screen bg-[#F8FAFC] text-gray-800">
         <Navbar />
         <main className="flex-grow">
           {children}

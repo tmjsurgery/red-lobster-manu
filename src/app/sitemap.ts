@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: "/specials", priority: 0.9, changeFrequency: "daily" as const },
     { route: "/lunch-menu", priority: 0.9, changeFrequency: "weekly" as const },
     { route: "/dinner-menu", priority: 0.9, changeFrequency: "weekly" as const },
+    { route: "/appetizers", priority: 0.9, changeFrequency: "weekly" as const },
     { route: "/kids-menu", priority: 0.8, changeFrequency: "weekly" as const },
     { route: "/nutrition-calories", priority: 0.8, changeFrequency: "weekly" as const },
     { route: "/happy-hour", priority: 0.8, changeFrequency: "weekly" as const },
