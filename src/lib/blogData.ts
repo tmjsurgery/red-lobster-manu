@@ -39,6 +39,416 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "7",
+    slug: "red-lobster-dinner-menu-with-prices-2026",
+    title: "Red Lobster Dinner Menu With Prices 2026: Signature Feasts, Hours & Complete Value Guide",
+    seoTitle: "Red Lobster Dinner Menu With Prices 2026 (Feasts, Steaks & Hours)",
+    seoDescription: "Explore the full Red Lobster dinner menu with updated 2026 prices! Discover Signature Feasts, live lobster, shrimp scampi, family bundles from $51.99, hours, calories & FAQs.",
+    excerpt: "Planning an evening seafood feast? Explore the complete 2026 Red Lobster Dinner Menu with verified prices, Signature Feasts, live Maine lobster, shrimp classics, steaks, family meals, and calories.",
+    image: "/red-lobster-dinner-menu-with-prices-2026.jpg",
+    author: "Executive Culinary Team",
+    date: "November 22, 2026",
+    readTime: "9 min read",
+    category: "Menu Guides",
+    faqs: [
+      {
+        question: "What time does Red Lobster start and stop serving dinner?",
+        answer: "Red Lobster officially begins its dinner service at 3:00 PM Monday through Friday, immediately following the lunch window, and serves dinner until restaurant closing (typically 9:00 PM to 10:00 PM, and 11:00 PM on Fridays and Saturdays). On Saturdays and Sundays, dinner menu pricing and selections are available all day."
+      },
+      {
+        question: "How much does an average dinner cost at Red Lobster in 2026?",
+        answer: "Most individual dinner entrées cost between $18.49 and $34.99. Popular shrimp and pasta entrées (like Garlic Shrimp Scampi and Shrimp Linguini Alfredo) start under $20, while luxury Signature Feasts (such as the Ultimate Feast® at $49.79 and Lobster Lover's Dream® at $48.99) range from $40 to $50. All entrées include warm, unlimited Cheddar Bay Biscuits and two sides."
+      },
+      {
+        question: "What is included in the famous Red Lobster Ultimate Feast®?",
+        answer: "The iconic Ultimate Feast® includes four seafood favorites on one platter: a tender steamed Maine lobster tail, wild-caught North American snow crab legs, signature garlic shrimp scampi, and crispy Walt's Favorite Shrimp. It is served with melted butter, cocktail sauce, lemon, your choice of two dinner sides, and unlimited warm Cheddar Bay Biscuits."
+      },
+      {
+        question: "Are Cheddar Bay Biscuits free with dinner at Red Lobster?",
+        answer: "Yes! All dine-in dinner entrées come with complimentary, unlimited warm Cheddar Bay Biscuits brought straight to your table and replenished throughout your meal. Takeout and delivery dinner orders include 2 to 4 freshly baked biscuits per entrée."
+      },
+      {
+        question: "What is the cheapest way to feed a family for dinner at Red Lobster?",
+        answer: "The most cost-effective option for families is a Red Lobster Family Meal Deal (feeds 4). The Linguini Alfredo Family Meal is just $51.99 ($13.00 per person), the Admiral's Family Feast is $68.99 ($17.25 per person), and the Create Your Own Family Feast is $71.99 ($18.00 per person). Each bundle includes 2 family-sized sides and 8 warm Cheddar Bay Biscuits."
+      },
+      {
+        question: "Can you get non-seafood dinners at Red Lobster?",
+        answer: "Yes. Red Lobster features hand-trimmed steaks (including the 7 oz Center-Cut Sirloin at $18.99–$21.99 and Filet Mignon), savory chicken dishes, and creamy pastas like Cajun Chicken Linguini Alfredo, ensuring non-seafood diners have plenty of hearty options."
+      }
+    ],
+    content: `
+      <p>When the sun sets and the dinner hour begins, <strong>Red Lobster</strong> transforms into America's quintessential seafood destination. Whether celebrating a family milestone, enjoying a romantic date night, or simply craving sweet steamed lobster tails and crackable snow crab legs, the <strong>2026 Red Lobster dinner menu</strong> delivers an expansive lineup of coastal classics, hearty surf-and-turf combinations, and <strong>unlimited warm Cheddar Bay Biscuits</strong>.</p>
+
+      <p>In 2026, Red Lobster has modernized its evening dining selections with verified pricing across all 16 core categories. From legendary multi-seafood <strong>Signature Feasts</strong> starting at $25.99 to value-packed <strong>Family Meal Deals from $51.99 (feeding four)</strong>, this comprehensive dinner guide breaks down every entrée, verified restaurant hours, calorie counts, healthy Lighthouse choices, and insider ordering secrets to maximize your dining budget.</p>
+
+      <div id="dinner-summary" class="callout-box my-8">
+        <h3 class="text-lg font-black text-[#B33A3A] mb-2 mt-0">2026 Red Lobster Dinner Menu Snapshot</h3>
+        <p class="text-sm text-gray-700 mb-0 leading-relaxed">
+          <strong>Official Dinner Hours:</strong> Monday – Friday: 3:00 PM – Close | Saturday &amp; Sunday: All Day<br>
+          <strong>Entrée Starting Price:</strong> $18.49 (Garlic Shrimp Scampi with 2 sides + warm biscuits)<br>
+          <strong>Signature Feasts:</strong> $25.99 – $49.79 (Ultimate Feast®, Lobster Lover's Dream®, Seaside Shrimp Trio)<br>
+          <strong>Family Feasts (Feeds 4):</strong> Starting at $51.99 ($13.00/person) with 2 family sides &amp; 8 biscuits<br>
+          <strong>Biscuits Included:</strong> Unlimited warm Cheddar Bay Biscuits baked fresh every 15 minutes with every dine-in entrée
+        </p>
+      </div>
+
+      <h2>Official Red Lobster Dinner Hours &amp; Service Times (2026)</h2>
+      <p>Red Lobster transitions from its daytime lunch service to the full evening dinner menu every weekday afternoon. Here is the breakdown of operating hours and dining policies:</p>
+      <ul>
+        <li><strong>Monday through Friday:</strong> Dinner service starts promptly at 3:00 PM (when the lunch specials window ends) and runs until restaurant closing—typically 9:00 PM to 10:00 PM on weeknights, and up to 11:00 PM on Fridays.</li>
+        <li><strong>Saturday and Sunday:</strong> Most Red Lobster locations serve the full dinner menu all day without a separate lunchtime pricing window.</li>
+        <li><strong>Two Sides Included:</strong> Unlike quick lunch specials which typically include one side, standard dinner entrées come complete with your choice of <strong>two individual dinner sides</strong> (such as crispy french fries, rice pilaf, mashed potatoes, or steamed broccoli).</li>
+        <li><strong>Unlimited Biscuits for Dine-In:</strong> Every dine-in dinner order is greeted with warm, freshly baked Cheddar Bay Biscuits brushed with garlic herb butter. Servers provide complimentary refills throughout your meal. Takeout and delivery orders receive 2 to 4 biscuits per entrée.</li>
+      </ul>
+
+      <h2>Signature Feasts &amp; Seafood Combos (The Crown Jewels)</h2>
+      <p>Red Lobster's <strong>Signature Feasts</strong> represent the ultimate indulgence for seafood aficionados. These oversized platters combine multiple premium proteins—such as cold-water Maine lobster, wild-caught snow crab, and jumbo shrimp—on a single plate served with two sides and warm biscuits.</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Signature Feast</th>
+              <th>Inclusions &amp; Dish Description</th>
+              <th>Calories</th>
+              <th>2026 Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Ultimate Feast®</strong></td>
+              <td>Tender Maine lobster tail, wild-caught snow crab legs, signature garlic shrimp scampi, and Walt's Favorite Shrimp with cocktail sauce and melted butter.</td>
+              <td>1,280 Cal</td>
+              <td><strong class="text-[#B33A3A]">$49.79</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Lobster Lover's Dream®</strong></td>
+              <td>A roasted rock lobster tail, a butter-poached Maine lobster tail, and creamy lobster-and-shrimp linguini Alfredo.</td>
+              <td>1,200 Cal</td>
+              <td><strong class="text-[#B33A3A]">$48.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Bar Harbor Lobster Bake</strong></td>
+              <td>Petite Maine lobster tails, tender shrimp, bay scallops, mussels, and fresh tomatoes tossed over linguini in white wine garlic broth.</td>
+              <td>1,040 Cal</td>
+              <td><strong class="text-[#B33A3A]">$38.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Admiral's Feast</strong></td>
+              <td>Golden-fried feast of Walt's Favorite Shrimp, tender bay scallops, crispy clam strips, and wild-caught flounder fillet.</td>
+              <td>1,670 Cal</td>
+              <td><strong class="text-[#B33A3A]">$29.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Seaside Shrimp Trio</strong></td>
+              <td>Three shrimp preparations on one platter: Walt's Favorite Shrimp, savory garlic shrimp scampi, and creamy garlic shrimp pasta.</td>
+              <td>1,100 Cal</td>
+              <td><strong class="text-[#B33A3A]">$25.99</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Maine Lobster &amp; Crab Entrées (Live Lobsters &amp; Crab Boils)</h2>
+      <p>For diners who want sweet, delicate shellfish to take center stage, Red Lobster offers whole live Maine lobsters plucked from live holding tanks, sweet wild snow crab clusters, and hearty seafood boils seasoned with garlic and coastal spices.</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Lobster &amp; Crab Entrée</th>
+              <th>Preparation Details &amp; Inclusions</th>
+              <th>Calories</th>
+              <th>2026 Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Steamed Live Maine Lobster (1.25 lb)</strong></td>
+              <td>Fresh wild-caught live Maine lobster steamed whole to order, served with hot drawn butter, fresh lemon, and two dinner sides.</td>
+              <td>440 Cal</td>
+              <td>$34.99</td>
+            </tr>
+            <tr>
+              <td><strong>Twin Maine Lobster Tails</strong></td>
+              <td>Two succulent cold-water Maine lobster tails steamed or wood-grilled with garlic herb butter and two sides.</td>
+              <td>580 Cal</td>
+              <td>$44.99</td>
+            </tr>
+            <tr>
+              <td><strong>Wild-Caught Snow Crab Legs</strong></td>
+              <td>A full pound of sweet North American snow crab clusters steamed with classic sea salt and served with melted drawn butter.</td>
+              <td>480 Cal</td>
+              <td>$34.99</td>
+            </tr>
+            <tr>
+              <td><strong>New Crabfest Boil</strong></td>
+              <td>Snow crab clusters, plump shrimp, sweet tender corn on the cob, and red potatoes steamed together in savory coastal boil seasoning.</td>
+              <td>1,150 Cal</td>
+              <td>$36.99</td>
+            </tr>
+            <tr>
+              <td><strong>Lobster Mac &amp; Cheese Entrée</strong></td>
+              <td>Spiral cavatappi pasta folded in a decadent four-cheese cream sauce, topped with succulent Maine lobster meat and panko crumbs.</td>
+              <td>950 Cal</td>
+              <td>$24.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Classic Shrimp Entrées &amp; Seafood Platters</h2>
+      <p>Shrimp dishes represent the most popular—and accessible—dinner entrées at Red Lobster. Prepared fried, wood-grilled, or broiled in rich scampi butter, these dishes offer hearty portions with two included sides starting at under $19.</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Shrimp &amp; Fish Entrée</th>
+              <th>Dish Highlights</th>
+              <th>Calories</th>
+              <th>2026 Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Garlic Shrimp Scampi (Dinner)</strong></td>
+              <td>Generous portion of tender shrimp oven-broiled in garlic butter, white wine, and Italian herbs. Served with two dinner sides.</td>
+              <td>440 Cal</td>
+              <td><strong class="text-[#B33A3A]">$18.49</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Walt's Favorite Shrimp (Dinner)</strong></td>
+              <td>Hand-breaded, butterflied jumbo shrimp fried golden-crisp and served with zesty cocktail sauce and two sides.</td>
+              <td>520 Cal</td>
+              <td>$19.49</td>
+            </tr>
+            <tr>
+              <td><strong>Parrot Isle Jumbo Coconut Shrimp</strong></td>
+              <td>Jumbo shrimp tossed in crispy flaked coconut, fried crisp and accompanied by signature sweet piña colada dipping sauce.</td>
+              <td>940 Cal</td>
+              <td>$19.99</td>
+            </tr>
+            <tr>
+              <td><strong>Wood-Grilled Shrimp Skewers</strong></td>
+              <td>Two skewers of plump jumbo shrimp basted in garlic herb butter and grilled over real oak wood.</td>
+              <td>500 Cal</td>
+              <td>$19.49</td>
+            </tr>
+            <tr>
+              <td><strong>Wood-Grilled Atlantic Salmon</strong></td>
+              <td>Fresh center-cut salmon fillet lightly seasoned and grilled over oak wood, topped with lemon butter sauce.</td>
+              <td>540 Cal</td>
+              <td>$23.99</td>
+            </tr>
+            <tr>
+              <td><strong>Wild Alaskan Flounder Fish &amp; Chips</strong></td>
+              <td>Generous portion of beer-battered wild flounder fillets fried golden with crispy fries, coleslaw, and house tartar sauce.</td>
+              <td>1,180 Cal</td>
+              <td>$19.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Steak, Surf &amp; Turf, and Alfredo Pastas (Land &amp; Sea)</h2>
+      <p>Dining with someone who prefers steak over seafood? Red Lobster features hand-trimmed USDA steaks alongside made-from-scratch pasta entrées topped with rich garlic Parmesan Alfredo cream sauce:</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Steak &amp; Pasta Dish</th>
+              <th>Inclusions &amp; Protein Profile</th>
+              <th>Calories</th>
+              <th>2026 Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Surf &amp; Turf (Lobster Tail &amp; 7 oz Sirloin)</strong></td>
+              <td>A tender steamed Maine lobster tail paired with a seasoned, wood-grilled center-cut USDA sirloin steak and two sides.</td>
+              <td>820 Cal</td>
+              <td><strong class="text-[#B33A3A]">$39.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>7 oz Center-Cut Sirloin</strong></td>
+              <td>Lean USDA choice sirloin steak grilled over wood fire with signature seasoning blend, served with two sides.</td>
+              <td>320 Cal</td>
+              <td>$20.99</td>
+            </tr>
+            <tr>
+              <td><strong>Crab &amp; Shrimp Linguini Alfredo</strong></td>
+              <td>Succulent lump crab meat and tender shrimp folded into creamy garlic Parmesan Alfredo sauce over fettuccine.</td>
+              <td>1,320 Cal</td>
+              <td>$24.99</td>
+            </tr>
+            <tr>
+              <td><strong>Shrimp Linguini Alfredo (Dinner)</strong></td>
+              <td>Plump shrimp tossed in made-from-scratch garlic cream sauce and tender pasta with freshly shaved Parmesan.</td>
+              <td>930 Cal</td>
+              <td>$19.99</td>
+            </tr>
+            <tr>
+              <td><strong>Cajun Chicken Linguini Alfredo</strong></td>
+              <td>Blackened chicken breast seasoned with Louisiana Cajun spices sliced over rich garlic Parmesan Alfredo pasta.</td>
+              <td>1,060 Cal</td>
+              <td>$18.99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Family Dinner Packages: Feeding Four from $51.99</h2>
+      <p>If you are feeding a family or hosting a dinner party at home, Red Lobster's <strong>Family Meal Bundles</strong> represent the highest value on the entire menu. Designed specifically to feed four people, each family bundle includes generous portions of your selected entrée, <strong>two family-sized sides</strong>, and <strong>8 warm Cheddar Bay Biscuits</strong>.</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Family Meal Bundle</th>
+              <th>What's Included</th>
+              <th>Serves</th>
+              <th>Bundle Price</th>
+              <th>Cost Per Person</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Linguini Alfredo Family Meal</strong></td>
+              <td>Generous tray of Shrimp or Cajun Chicken Alfredo + 2 large sides + 8 warm Cheddar Bay Biscuits.</td>
+              <td>4 People</td>
+              <td>$51.99 – $54.99</td>
+              <td><strong class="text-emerald-700">$13.00 – $13.75</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Admiral's Family Feast</strong></td>
+              <td>Platter of Walt's Shrimp, bay scallops, clam strips, flounder + 2 large sides + 8 warm biscuits.</td>
+              <td>4 People</td>
+              <td>$68.99</td>
+              <td><strong class="text-emerald-700">$17.25</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Create Your Own Family Feast</strong></td>
+              <td>Choose 3 seafood favorites (Walt's Shrimp, Scampi, Chicken Tenders, etc.) + 2 large sides + 8 biscuits.</td>
+              <td>4 People</td>
+              <td>$71.99</td>
+              <td><strong class="text-emerald-700">$18.00</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Ultimate Family Feast</strong></td>
+              <td>Steamed Maine lobster tails, snow crab clusters, garlic shrimp scampi, Walt's shrimp + 2 large sides + 8 biscuits.</td>
+              <td>4 People</td>
+              <td>$146.99</td>
+              <td>$36.75</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>Cost Comparison Note:</strong> Ordering four individual dinner entrées typically costs $80 to $120. Choosing the <strong>Linguini Alfredo Family Meal at $51.99</strong> slashes your bill to just <strong>$13.00 per person</strong>—less than the price of a single casual burger meal elsewhere!</p>
+
+      <h2>Weekday Evening Daily Deals: Big Savings Mon–Fri</h2>
+      <p>Red Lobster runs rotating evening promotions Monday through Friday. If your schedule is flexible, aligning your dinner visit with the day's promotion provides significant savings compared to standard menu pricing:</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Weekday</th>
+              <th>Featured Evening Deal</th>
+              <th>Deal Price</th>
+              <th>Regular Dinner Value &amp; Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Monday</strong></td>
+              <td>Ultimate Endless Shrimp (Promotional)</td>
+              <td>$24.99</td>
+              <td>Endless mix-and-match servings of Garlic Scampi, Walt's Shrimp, and Coconut Shrimp.</td>
+            </tr>
+            <tr>
+              <td><strong>Tuesday</strong></td>
+              <td>Crab Lover's Duo</td>
+              <td>$25.99</td>
+              <td>Sweet snow crab clusters paired with rich crab pasta and side. Usually $34.99.</td>
+            </tr>
+            <tr>
+              <td><strong>Wednesday</strong></td>
+              <td>Steak &amp; Walt's Shrimp</td>
+              <td>$23.99</td>
+              <td>7 oz Center-Cut Sirloin paired with crispy Walt's Shrimp. A classic $32.99 surf-and-turf value.</td>
+            </tr>
+            <tr>
+              <td><strong>Thursday</strong></td>
+              <td>Salmon New Orleans</td>
+              <td>$23.99</td>
+              <td>Fresh blackened Atlantic salmon topped with Cajun shrimp scampi. Normally $28.99.</td>
+            </tr>
+            <tr>
+              <td><strong>Friday</strong></td>
+              <td>Fish &amp; Chips Platter</td>
+              <td>$15.99</td>
+              <td>Heaping platter of beer-battered wild flounder, golden fries, and coleslaw.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>The Lighthouse Menu: Lighter Dinners Under 600 Calories</h2>
+      <p>Dining out on seafood doesn't have to sabotage your nutrition goals. Red Lobster's <strong>Lighthouse options</strong> focus on clean, wood-grilled proteins and lightly steamed vegetables that are naturally high in protein and low in carbohydrates and calories:</p>
+      <ul>
+        <li><strong>7 oz Center-Cut Sirloin (320 Cal | $20.99):</strong> The lowest-calorie meat entrée on the menu. Packed with 48 grams of lean protein and virtually zero carbohydrates.</li>
+        <li><strong>Garlic Shrimp Scampi (440 Cal | $18.49):</strong> Oven-broiled in garlic butter and white wine, this entrée delivers rich seafood flavor while keeping calories under 450.</li>
+        <li><strong>Wood-Grilled Shrimp Skewers (500 Cal | $19.49):</strong> Two skewers of succulent oak-grilled shrimp glazed with light butter seasonings.</li>
+        <li><strong>Wood-Grilled Atlantic Salmon (540 Cal | $23.99):</strong> Rich in healthy omega-3 fatty acids and heart-healthy proteins, especially when paired with steamed broccoli.</li>
+        <li><strong>Smart Side Swaps:</strong> Replace french fries or mashed potatoes with <em>Fresh Steamed Broccoli (80 Cal)</em> or <em>Seasoned Rice Pilaf (200 Cal)</em> at no additional charge.</li>
+      </ul>
+
+      <h2>Sides, Upgrades &amp; The Legendary Cheddar Bay Biscuits</h2>
+      <p>Every standard dinner entrée includes your choice of <strong>two side dishes</strong>. Red Lobster offers classic sides included in the base entrée price, as well as premium side upgrades and decadent desserts:</p>
+      <ul>
+        <li><strong>Standard Included Sides:</strong> Sea Salt French Fries, Seasoned Rice Pilaf, Fresh Steamed Broccoli, Creamy Mashed Potatoes, or Sweet Tangy Coleslaw.</li>
+        <li><strong>Premium Upgrades (+$2.49 to +$3.99):</strong> Loaded Baked Potato (with melted cheddar, sour cream, butter, and bacon bits), Bacon Mac &amp; Cheese, or Crispy Roasted Brussels Sprouts.</li>
+        <li><strong>Unlimited Cheddar Bay Biscuits:</strong> Hot, golden, and glistening with garlic herb butter, Cheddar Bay Biscuits are baked fresh in the restaurant every 15 minutes. Dine-in guests receive bottomless complimentary baskets throughout their dinner.</li>
+        <li><strong>Dinner Desserts:</strong> Cap off your evening with the famous <em>Chocolate Wave Cake ($10.99 | 1,110 Cal)</em> served warm with vanilla bean ice cream, or authentic tart <em>Key Lime Pie ($9.99 | 580 Cal)</em> in a buttery graham crust.</li>
+      </ul>
+
+      <h2>5 Insider Secrets to Maximize Your Red Lobster Dinner</h2>
+      <ol>
+        <li><strong>The 3:00 PM to 6:00 PM Happy Hour Bridge:</strong> Arrive between 3:00 PM and 6:00 PM on weekdays. You can order from the full dinner menu while taking advantage of Happy Hour drink specials ($5 draft beers, house wines, and cocktails) and discounted appetizers.</li>
+        <li><strong>The Family Meal Carryout Hack:</strong> If you are dining as a group of four or ordering takeout, choose the <em>Linguini Alfredo Family Meal ($51.99)</em> or <em>Admiral's Family Feast ($68.99)</em>. You will pay $13 to $17 per person, receive 2 large sides, and get 8 biscuits—saving over $40 compared to individual entrées.</li>
+        <li><strong>Never Pay for Extra Biscuits:</strong> When dining in, biscuits are unlimited and complimentary. Before your dessert or check arrives, politely ask your server for a fresh, warm basket of biscuits to pack up in a to-go box for a delicious breakfast the next morning!</li>
+        <li><strong>Stack "My Red Lobster Rewards" Points:</strong> Download the My Red Lobster Rewards app before your dinner. You earn 1 point for every $1 spent. Plus, new members receive 75 bonus points, and rewards members regularly receive coupons for $5 off $20 or 10% off their entire dinner check.</li>
+        <li><strong>Customize Your Feast Sides:</strong> Standard feasts come with two sides. If you want a hearty baked potato, upgrade to the Loaded Baked Potato with melted cheddar, bacon, and sour cream for only $2.99 to transform a standard dinner plate into a luxury steakhouse meal.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions (FAQs)</h2>
+
+      <h3>What time does Red Lobster start and stop serving dinner?</h3>
+      <p>Red Lobster officially begins its dinner service at 3:00 PM Monday through Friday, immediately following the lunch window, and serves dinner until restaurant closing (typically 9:00 PM to 10:00 PM, and 11:00 PM on Fridays and Saturdays). On Saturdays and Sundays, dinner menu pricing and selections are available all day.</p>
+
+      <h3>How much does an average dinner cost at Red Lobster in 2026?</h3>
+      <p>Most individual dinner entrées cost between $18.49 and $34.99. Popular shrimp and pasta entrées (like Garlic Shrimp Scampi and Shrimp Linguini Alfredo) start under $20, while luxury Signature Feasts (such as the Ultimate Feast® at $49.79 and Lobster Lover's Dream® at $48.99) range from $40 to $50. All entrées include warm, unlimited Cheddar Bay Biscuits and two sides.</p>
+
+      <h3>What is included in the famous Red Lobster Ultimate Feast®?</h3>
+      <p>The iconic Ultimate Feast® includes four seafood favorites on one platter: a tender steamed Maine lobster tail, wild-caught North American snow crab legs, signature garlic shrimp scampi, and crispy Walt's Favorite Shrimp. It is served with melted butter, cocktail sauce, lemon, your choice of two dinner sides, and unlimited warm Cheddar Bay Biscuits.</p>
+
+      <h3>Are Cheddar Bay Biscuits free with dinner at Red Lobster?</h3>
+      <p>Yes! All dine-in dinner entrées come with complimentary, unlimited warm Cheddar Bay Biscuits brought straight to your table and replenished throughout your meal. Takeout and delivery dinner orders include 2 to 4 freshly baked biscuits per entrée.</p>
+
+      <h3>What is the cheapest way to feed a family for dinner at Red Lobster?</h3>
+      <p>The most cost-effective option for families is a Red Lobster Family Meal Deal (feeds 4). The Linguini Alfredo Family Meal is just $51.99 ($13.00 per person), the Admiral's Family Feast is $68.99 ($17.25 per person), and the Create Your Own Family Feast is $71.99 ($18.00 per person). Each bundle includes 2 family-sized sides and 8 warm Cheddar Bay Biscuits.</p>
+
+      <h3>Can you get non-seafood dinners at Red Lobster?</h3>
+      <p>Yes. Red Lobster features hand-trimmed steaks (including the 7 oz Center-Cut Sirloin at $18.99–$21.99 and Filet Mignon), savory chicken dishes, and creamy pastas like Cajun Chicken Linguini Alfredo, ensuring non-seafood diners have plenty of hearty options.</p>
+
+      <h2>Conclusion</h2>
+      <p>From the iconic <strong>Ultimate Feast®</strong> and succulent <strong>live Maine lobster</strong> to creamy Alfredo pastas and bottomless warm <strong>Cheddar Bay Biscuits</strong>, the <strong>2026 Red Lobster dinner menu</strong> provides something extraordinary for every palate and budget. By utilizing weekday evening promotions, family meal packages from $51.99, and the 3:00 to 6:00 PM Happy Hour window, you can enjoy a world-class seafood dinner at unbeatable value. Visit your nearest Red Lobster tonight and treat yourself to an unforgettable coastal dining experience!</p>
+    `,
+  },
+  {
     id: "6",
     slug: "red-lobster-lunch-menu-with-prices-2026",
     title: "Red Lobster Lunch Menu With Prices 2026: $10 Specials, Hours & Value Guide",
