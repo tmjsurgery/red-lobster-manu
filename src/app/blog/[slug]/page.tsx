@@ -240,6 +240,19 @@ export default async function BlogPostPage(props: Props) {
                     </a>
                   </div>
                 )}
+                {post.slug === "red-lobster-lunch-menu-with-prices-2026" && (
+                  <div className="mt-4 flex flex-wrap gap-3">
+                    <a
+                      href="#lunch-summary"
+                      className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#B33A3A] text-white text-xs font-bold uppercase tracking-wider rounded-full shadow-sm hover:bg-[#992F2F] transition-all"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                      </svg>
+                      Jump to Price Table &amp; Specials
+                    </a>
+                  </div>
+                )}
               </div>
 
               {/* Main Image */}

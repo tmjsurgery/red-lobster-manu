@@ -39,6 +39,331 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "6",
+    slug: "red-lobster-lunch-menu-with-prices-2026",
+    title: "Red Lobster Lunch Menu With Prices 2026: $10 Specials, Hours & Value Guide",
+    seoTitle: "Red Lobster Lunch Menu With Prices 2026 ($10 Specials & Hours)",
+    seoDescription: "Explore the full Red Lobster lunch menu with updated 2026 prices! Discover $10 lunch specials starting at $8.99, hours (11 AM–3 PM), daily deals, calorie counts, and FAQs.",
+    excerpt: "Looking for a delicious midday seafood feast on a budget? Explore the complete 2026 Red Lobster Lunch Menu with updated prices, $10 lunch specials starting at $8.99, official lunch hours, daily deals, and calories.",
+    image: "/red-lobster-lunch-menu-with-prices-2026.jpg",
+    author: "Executive Culinary Team",
+    date: "November 22, 2026",
+    readTime: "8 min read",
+    category: "Menu Guides",
+    faqs: [
+      {
+        question: "What time does Red Lobster start and stop serving lunch?",
+        answer: "Red Lobster officially serves its lunch menu Monday through Friday from 11:00 AM to 3:00 PM at participating locations nationwide. After 3:00 PM, the restaurant transitions to dinner pricing."
+      },
+      {
+        question: "What is the cheapest meal on the Red Lobster lunch menu?",
+        answer: "The lowest-priced lunch item is the Soup, Salad & Cheddar Bay Biscuits Combo at $8.99. It includes your choice of soup (Clam Chowder or Lobster Bisque), a fresh garden or Caesar salad, and warm Cheddar Bay Biscuits."
+      },
+      {
+        question: "Do you get free Cheddar Bay Biscuits with lunch at Red Lobster?",
+        answer: "Yes! All dine-in lunch entrées come with complimentary, unlimited warm Cheddar Bay Biscuits baked fresh every 15 minutes. To-go and delivery lunch orders include 2 to 4 biscuits per entrée in the bag."
+      },
+      {
+        question: "Are Red Lobster lunch specials available on Saturday and Sunday?",
+        answer: "No. At the majority of Red Lobster locations, lunch specials are exclusive to Monday through Friday. On Saturdays and Sundays, standard dinner menu pricing is served all day."
+      },
+      {
+        question: "Can I order dinner items during lunch hours?",
+        answer: "Yes. The entire dinner menu—including the Ultimate Feast, Live Maine Lobster, and Crabfest seafood boils—is available to order at any time during lunch hours at standard dinner menu prices."
+      },
+      {
+        question: "How much money can you save by eating lunch instead of dinner at Red Lobster?",
+        answer: "Diners typically save between 20% and 46% by ordering lunch portions instead of dinner entrées. For example, Garlic Shrimp Scampi is $9.99 at lunch versus $18.49 at dinner, saving $8.50 per person."
+      }
+    ],
+    content: `
+      <p>If you love seafood but want to avoid a hefty dinner bill, the <strong>Red Lobster lunch menu</strong> is one of the dining world's best-kept secrets. By visiting during the midday window, guests can enjoy generous portions of wild-caught seafood, warm garlic scampi, savory bowls, and <strong>unlimited Cheddar Bay Biscuits</strong> at discounts of <strong>20% to 35% off regular dinner pricing</strong>.</p>
+
+      <p>In 2026, Red Lobster has refreshed its lunchtime offerings, highlighting popular <strong>$10 Lunch Specials</strong> (starting as low as $8.99), wholesome power bowls, classic handheld sandwiches, and seasonal weekday deals. In this comprehensive guide, we break down the entire 2026 lunch menu, exact weekday hours, dish-by-dish pricing, calorie counts, and insider ordering hacks to get the maximum value from your next midday meal.</p>
+
+      <div id="lunch-summary" class="callout-box my-8">
+        <h3 class="text-lg font-black text-[#B33A3A] mb-2 mt-0">2026 Red Lobster Lunch Menu Snapshot</h3>
+        <p class="text-sm text-gray-700 mb-0 leading-relaxed">
+          <strong>Official Lunch Hours:</strong> Monday – Friday, 11:00 AM – 3:00 PM (Local Time)<br>
+          <strong>Starting Price:</strong> $8.99 (Soup, Salad &amp; Warm Cheddar Bay Biscuits Combo)<br>
+          <strong>$10 Specials:</strong> 6 signature lunch entrées priced at $8.99 to $10.99<br>
+          <strong>Biscuits Included:</strong> Unlimited warm Cheddar Bay Biscuits included with all dine-in lunch entrées<br>
+          <strong>Average Midday Savings:</strong> Save $5.00 to $9.00 per dish compared to evening dinner prices
+        </p>
+      </div>
+
+      <h2>Official Red Lobster Lunch Hours &amp; Availability (2026)</h2>
+      <p>Timing is everything when you want to take advantage of lunch pricing. Here is everything you need to know about when lunch is served and restaurant policies:</p>
+      <ul>
+        <li><strong>Monday through Friday:</strong> 11:00 AM to 3:00 PM. All locations serve the specialized lunch menu during these hours.</li>
+        <li><strong>Saturday and Sunday:</strong> Most Red Lobster locations do not offer lunch menu pricing on weekends; standard all-day dinner pricing applies.</li>
+        <li><strong>Dinner Menu Availability:</strong> You are never limited exclusively to lunch items! If you crave the Ultimate Feast, Live Maine Lobster, or Wood-Grilled Sirloin during lunch, the full dinner menu is always available to order at dinner pricing.</li>
+        <li><strong>Dine-In vs. To-Go:</strong> You can order lunch items for takeout or delivery via the Red Lobster app or website during lunch hours. While dine-in guests receive unlimited fresh biscuit baskets, to-go lunch orders include 2 to 4 warm biscuits per entrée.</li>
+      </ul>
+
+      <h2>The Famous $10 Red Lobster Lunch Specials (Starting $8.99)</h2>
+      <p>The crown jewel of Red Lobster's midday dining is the <strong>$10 Lunch Specials lineup</strong>. Designed for fast service and unbeatable affordability, these entrees satisfy serious seafood cravings without straining your budget. Each dish comes with your choice of a side (such as seasoned fries, rice pilaf, or steamed broccoli) plus warm biscuits.</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Lunch Special Item</th>
+              <th>Dish Description</th>
+              <th>Calories</th>
+              <th>2026 Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Soup, Salad &amp; Cheddar Bay Biscuits</strong></td>
+              <td>Choice of cup of soup (Clam Chowder or Lobster Bisque) + garden or Caesar salad + 4 warm biscuits.</td>
+              <td>380–620 Cal</td>
+              <td><strong class="text-[#B33A3A]">$8.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Garlic Shrimp Scampi (Lunch)</strong></td>
+              <td>Tender shrimp sautéed in savory garlic-butter white wine sauce, served over linguini or with a side.</td>
+              <td>520 Cal</td>
+              <td><strong class="text-[#B33A3A]">$9.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Popcorn Shrimp (Lunch)</strong></td>
+              <td>A generous basket of bite-sized shrimp fried golden-crisp with cocktail sauce and one side.</td>
+              <td>430 Cal</td>
+              <td><strong class="text-[#B33A3A]">$9.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Crispy Cod Sandwich (Lunch)</strong></td>
+              <td>Hand-battered wild-caught cod fillet, crunchy tartar slaw on toasted brioche with seasoned fries.</td>
+              <td>550 Cal</td>
+              <td><strong class="text-[#B33A3A]">$9.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Crispy Clam Strips (Lunch)</strong></td>
+              <td>Deep-fried tender Atlantic clam strips with house tartar sauce, tangy coleslaw, and fries.</td>
+              <td>580 Cal</td>
+              <td><strong class="text-[#B33A3A]">$9.99</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Parrot Isle Jumbo Coconut Shrimp</strong></td>
+              <td>Jumbo butterflied shrimp tossed in real flaked coconut, fried crisp with signature piña colada sauce.</td>
+              <td>610 Cal</td>
+              <td><strong class="text-[#B33A3A]">$10.99</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Classic Lunch Entrées &amp; Seafood Favorites</h2>
+      <p>If you're looking for a heartier midday meal, Red Lobster offers lunch-sized portions of its most celebrated dinner classics. These meals are slightly trimmed down in portion size from dinner, providing the perfect energy boost without causing an afternoon food coma.</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Lunch Entrée</th>
+              <th>Description &amp; Inclusions</th>
+              <th>Calories</th>
+              <th>2026 Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Walt's Favorite Shrimp (Lunch)</strong></td>
+              <td>Hand-breaded, butterflied jumbo shrimp fried crisp, served with cocktail sauce and one side.</td>
+              <td>690 Cal</td>
+              <td>$13.99</td>
+            </tr>
+            <tr>
+              <td><strong>Shrimp Linguini Alfredo (Lunch)</strong></td>
+              <td>Plump shrimp tossed in made-from-scratch garlic Parmesan cream sauce over tender pasta.</td>
+              <td>870 Cal</td>
+              <td>$14.99</td>
+            </tr>
+            <tr>
+              <td><strong>Wood-Grilled Atlantic Salmon (Lunch)</strong></td>
+              <td>Fresh Atlantic salmon fillet grilled over oak wood, basted with herb butter, plus choice of side.</td>
+              <td>480 Cal</td>
+              <td>$13.49</td>
+            </tr>
+            <tr>
+              <td><strong>Classic Fish &amp; Chips (Lunch)</strong></td>
+              <td>Wild-caught white cod fillets dipped in light beer batter, fried golden with Chesapeake fries.</td>
+              <td>820 Cal</td>
+              <td>$15.99</td>
+            </tr>
+            <tr>
+              <td><strong>Salmon New Orleans (Lunch)</strong></td>
+              <td>Blackened fresh salmon fillet crowned with shrimp sautéed in spicy Cajun cream butter.</td>
+              <td>740 Cal</td>
+              <td>$20.49</td>
+            </tr>
+            <tr>
+              <td><strong>Caesar Salad with Grilled Shrimp</strong></td>
+              <td>Crisp romaine hearts, shaved Parmesan, garlic croutons, and skewers of fire-grilled shrimp.</td>
+              <td>460 Cal</td>
+              <td>$12.49</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Power Bowls &amp; Handhelds (Quick Midday Dining)</h2>
+      <p>Modern diners frequently look for clean, high-protein midday meals that eat well on a 30-minute lunch break. Red Lobster's 2026 Power Bowls and Gourmet Sandwiches deliver exceptional freshness and bold global seasonings:</p>
+
+      <ul>
+        <li><strong>Baja Shrimp Bowl ($16.99 | 620 Cal):</strong> Loaded with seasoned grilled shrimp, fresh avocado slices, black beans, jalapeño ranch slaw, pico de gallo, and ancient grain quinoa rice. A customer-favorite for clean eating!</li>
+        <li><strong>Sesame-Soy Salmon Bowl ($17.99 | 580 Cal):</strong> Glazed wood-grilled salmon over warm quinoa rice, roasted edamame, caramelized crispy Brussels sprouts, and sesame ginger dressing.</li>
+        <li><strong>Kung Pao Noodles with Crispy Shrimp ($16.99 | 740 Cal):</strong> Sweet-and-spicy glazed noodles tossed with crispy shrimp, shredded cabbage, edamame, and toasted whole cashews.</li>
+        <li><strong>Half-Pound Wagyu Bacon Cheeseburger ($15.99 | 950 Cal):</strong> For guests craving turf over surf. Grilled American Wagyu beef patty, thick Applewood smoked bacon, sharp white cheddar, crisp lettuce, and tomato on a buttered brioche bun.</li>
+        <li><strong>Nashville Hot Chicken Sandwich ($13.99 | 700 Cal):</strong> Crispy hand-breaded chicken breast tossed in fiery Nashville cayenne brown-sugar glaze, topped with cooling house ranch and tangy pickles.</li>
+      </ul>
+
+      <h2>Weekday Daily Deals: Incredible Savings Mon–Fri</h2>
+      <p>In addition to the core lunch menu, Red Lobster runs featured daily promotions on weekdays. These specials run during lunch and extend into the dinner shift, making them incredible value options:</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Special Feature</th>
+              <th>Price</th>
+              <th>Deal Highlights</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Monday</strong></td>
+              <td>Endless Shrimp (Seasonal)</td>
+              <td>$20.99</td>
+              <td>Mix &amp; match Garlic Scampi, Walt's Shrimp, and Coconut Shrimp endlessly.</td>
+            </tr>
+            <tr>
+              <td><strong>Tuesday</strong></td>
+              <td>Linguini Alfredo Deal</td>
+              <td>$14.99</td>
+              <td>Choose tender sautéed shrimp or Cajun blackened chicken Alfredo with biscuits.</td>
+            </tr>
+            <tr>
+              <td><strong>Wednesday</strong></td>
+              <td>Steak &amp; Lobster Classic</td>
+              <td>$24.99</td>
+              <td>7 oz peppercorn-crusted sirloin paired with a succulent steamed Maine lobster tail.</td>
+            </tr>
+            <tr>
+              <td><strong>Thursday</strong></td>
+              <td>Lobster &amp; Shrimp Scampi</td>
+              <td>$19.99</td>
+              <td>Tender Maine lobster tail plus a skillet of bubbling garlic shrimp scampi.</td>
+            </tr>
+            <tr>
+              <td><strong>Friday</strong></td>
+              <td>Fish &amp; Chips Friday</td>
+              <td>$15.99</td>
+              <td>Heaping plate of beer-battered wild cod, golden fries, and creamy coleslaw.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Price Comparison: Lunch vs. Dinner (How Much You Save)</h2>
+      <p>Curious how much you actually save by dining during the 11 AM to 3 PM lunch window? Take a look at this side-by-side pricing comparison on identical or near-identical favorites:</p>
+
+      <div class="competitor-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Menu Item</th>
+              <th>Lunch Price</th>
+              <th>Dinner Price</th>
+              <th>Your Dollar Savings</th>
+              <th>% Savings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Garlic Shrimp Scampi</strong></td>
+              <td>$9.99</td>
+              <td>$18.49</td>
+              <td><strong>Save $8.50</strong></td>
+              <td><strong>46% Off</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Popcorn Shrimp Platter</strong></td>
+              <td>$9.99</td>
+              <td>$16.99</td>
+              <td><strong>Save $7.00</strong></td>
+              <td><strong>41% Off</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Walt's Favorite Shrimp</strong></td>
+              <td>$13.99</td>
+              <td>$19.99</td>
+              <td><strong>Save $6.00</strong></td>
+              <td><strong>30% Off</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Shrimp Linguini Alfredo</strong></td>
+              <td>$14.99</td>
+              <td>$20.49</td>
+              <td><strong>Save $5.50</strong></td>
+              <td><strong>27% Off</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Grilled Atlantic Salmon</strong></td>
+              <td>$13.49</td>
+              <td>$21.99</td>
+              <td><strong>Save $8.50</strong></td>
+              <td><strong>39% Off</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Sides, Add-Ons &amp; The Legendary Cheddar Bay Biscuits</h2>
+      <p>Every lunch entrée includes your choice of one standard side dish. You can also customize your meal with premium side upgrades or add-on proteins:</p>
+      <ul>
+        <li><strong>Standard Included Sides:</strong> Sea Salt French Fries, Seasoned Rice Pilaf, Fresh Steamed Broccoli, Mashed Potatoes with Garlic Butter, or Sweet Vinegar Slaw.</li>
+        <li><strong>Premium Upgrades (+$2.49 to +$3.99):</strong> Bacon Macaroni &amp; Cheese, Crispy Roasted Brussels Sprouts with Soy-Ginger glaze, or a Loaded Baked Potato with sour cream and bacon.</li>
+        <li><strong>Unlimited Cheddar Bay Biscuits:</strong> No Red Lobster meal is complete without them. When dining in, warm baskets of freshly baked Cheddar Bay Biscuits are brought directly to your table at no additional charge. Every batch is baked fresh every 15 minutes!</li>
+      </ul>
+
+      <h2>5 Insider Tips to Maximize Your Red Lobster Lunch</h2>
+      <ol>
+        <li><strong>The $8.99 Unlimited Biscuits Secret:</strong> Ordering the $8.99 Soup &amp; Salad combo gives you access to bottomless warm Cheddar Bay Biscuits. You get a hearty bowl of New England Clam Chowder, a crisp garden salad, and all the warm biscuits you can eat for under $10!</li>
+        <li><strong>Aim for the 2:30 PM Sweet Spot:</strong> If you arrive at 2:30 PM, you can order off the discounted Lunch Menu, and when 3:00 PM hits, take advantage of <em>Happy Hour</em> drink specials ($5 draft beers, house wines, and cocktails).</li>
+        <li><strong>Scan the "My Red Lobster Rewards" App:</strong> Earn 1 point per $1 spent on your lunch check. Frequent diners receive surprise $5 off coupons and free appetizer rewards that can be redeemed right during lunch.</li>
+        <li><strong>Ask for Biscuits to Go:</strong> When paying your lunch check, politely ask your server for a fresh bag of warm biscuits to take back to the office or home. Servers are happy to pack 2 to 4 freshly baked biscuits for your commute!</li>
+        <li><strong>Sub Broccoli or Rice for Fries at No Charge:</strong> If you want to keep your midday meal low-calorie and energizing for afternoon work, swap french fries for steamed broccoli or seasoned rice pilaf at zero extra cost.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions (FAQs)</h2>
+
+      <h3>What time does Red Lobster start and stop serving lunch?</h3>
+      <p>Red Lobster officially serves its lunch menu Monday through Friday from 11:00 AM to 3:00 PM at participating locations nationwide. After 3:00 PM, the restaurant transitions to dinner pricing.</p>
+
+      <h3>What is the cheapest meal on the Red Lobster lunch menu?</h3>
+      <p>The lowest-priced lunch item is the <strong>Soup, Salad &amp; Cheddar Bay Biscuits Combo at $8.99</strong>. It includes your choice of soup (Clam Chowder or Lobster Bisque), a fresh garden or Caesar salad, and warm Cheddar Bay Biscuits.</p>
+
+      <h3>Do you get free Cheddar Bay Biscuits with lunch at Red Lobster?</h3>
+      <p>Yes! All dine-in lunch entrées come with complimentary, unlimited warm Cheddar Bay Biscuits baked fresh every 15 minutes. To-go and delivery lunch orders include 2 to 4 biscuits per entrée in the bag.</p>
+
+      <h3>Are Red Lobster lunch specials available on Saturday and Sunday?</h3>
+      <p>No. At the majority of Red Lobster locations, lunch specials are exclusive to Monday through Friday. On Saturdays and Sundays, standard dinner menu pricing is served all day.</p>
+
+      <h3>Can I order dinner items during lunch hours?</h3>
+      <p>Yes. The entire dinner menu—including the Ultimate Feast, Live Maine Lobster, and Crabfest seafood boils—is available to order at any time during lunch hours at standard dinner menu prices.</p>
+
+      <h3>How much money can you save by eating lunch instead of dinner at Red Lobster?</h3>
+      <p>Diners typically save between 20% and 46% by ordering lunch portions instead of dinner entrées. For example, Garlic Shrimp Scampi is $9.99 at lunch versus $18.49 at dinner, saving $8.50 per person.</p>
+
+      <h2>Conclusion</h2>
+      <p>Whether you're taking a quick 45-minute workday break or catching up with friends over seafood, the <strong>Red Lobster lunch menu in 2026</strong> offers unmatched variety and value. With $10 specials, crisp power bowls, and endless baskets of warm Cheddar Bay Biscuits, you can enjoy a top-tier seafood lunch that satisfies your appetite without denting your budget. Head to your nearest Red Lobster between 11:00 AM and 3:00 PM on weekdays to experience the best midday dining deals in town!</p>
+    `,
+  },
+  {
     id: "1",
     slug: "red-lobster-cheddar-bay-biscuits-recipe-at-home",
     title: "Red Lobster Cheddar Bay Biscuits Recipe at Home (Easy Copycat)",
