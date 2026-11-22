@@ -96,8 +96,15 @@ export default function BlogListingPage() {
                   className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-                <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-sm px-3 py-1 rounded-full text-[11px] font-extrabold text-[#B33A3A] shadow-xs">
-                  {post.category}
+                <div className="absolute top-3 left-3 flex items-center gap-1.5">
+                  <span className="bg-white/95 backdrop-blur-sm px-3 py-1 rounded-full text-[11px] font-extrabold text-[#B33A3A] shadow-xs">
+                    {post.category}
+                  </span>
+                  {post.recipe && (
+                    <span className="bg-[#B33A3A] text-white px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider shadow-xs">
+                      Recipe
+                    </span>
+                  )}
                 </div>
               </div>
               <div className="p-6 flex flex-col flex-grow justify-between">

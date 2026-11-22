@@ -9,20 +9,29 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
 export async function generateMetadata(props: Props) {
   const params = await props.params;
   const post = blogPosts.find((p) => p.slug === params.slug);
   if (!post) return { title: "Post Not Found - Red Lobster Menu Guide" };
 
+  const metaTitle = post.seoTitle || `${post.title} | Red Lobster Menu Guide`;
+  const metaDescription = post.seoDescription || post.excerpt;
+
   return {
-    title: `${post.title} | Red Lobster Menu Guide`,
-    description: post.excerpt,
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: `/blog/${post.slug}`,
     },
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: metaTitle,
+      description: metaDescription,
       type: "article",
       publishedTime: new Date(post.date).toISOString(),
       authors: [post.author],
@@ -34,6 +43,12 @@ export async function generateMetadata(props: Props) {
           alt: post.title,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: metaTitle,
+      description: metaDescription,
+      images: [post.image],
     },
   };
 }
@@ -99,10 +114,74 @@ export default async function BlogPostPage(props: Props) {
     ]
   };
 
+  const recipeJsonLd = post.recipe
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        name: post.title,
+        image: [`https://redlobstermenu.site${post.image}`],
+        description: post.excerpt,
+        author: {
+          "@type": "Person",
+          name: post.author,
+        },
+        datePublished: new Date(post.date).toISOString(),
+        prepTime: post.recipe.prepTime,
+        cookTime: post.recipe.cookTime,
+        totalTime: post.recipe.totalTime,
+        recipeYield: post.recipe.yield,
+        recipeCategory: post.category,
+        recipeCuisine: "American",
+        keywords: "Red Lobster, Cheddar Bay Biscuits, Copycat Recipe, Biscuits",
+        recipeIngredient: post.recipe.ingredients,
+        recipeInstructions: post.recipe.instructions.map((step, idx) => ({
+          "@type": "HowToStep",
+          name: `Step ${idx + 1}`,
+          text: step,
+          position: idx + 1,
+        })),
+        ...(post.recipe.nutrition
+          ? {
+              nutrition: {
+                "@type": "NutritionInformation",
+                calories: post.recipe.nutrition.calories,
+                fatContent: post.recipe.nutrition.fatContent,
+                saturatedFatContent: post.recipe.nutrition.saturatedFatContent,
+                carbohydrateContent: post.recipe.nutrition.carbohydrateContent,
+                proteinContent: post.recipe.nutrition.proteinContent,
+                sodiumContent: post.recipe.nutrition.sodiumContent,
+              },
+            }
+          : {}),
+      }
+    : null;
+
+  const faqJsonLd =
+    post.faqs && post.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: faq.answer,
+            },
+          })),
+        }
+      : null;
+
   return (
     <div className="bg-[#F8FAFC]">
       <Script id="article-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Script id="breadcrumb-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {recipeJsonLd && (
+        <Script id="recipe-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeJsonLd) }} />
+      )}
+      {faqJsonLd && (
+        <Script id="faq-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      )}
       
       <article className="min-h-screen pb-20 pt-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -148,6 +227,19 @@ export default async function BlogPostPage(props: Props) {
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 mt-2 mb-4 leading-tight tracking-tight">
                   {post.title}
                 </h1>
+                {post.recipe && (
+                  <div className="mt-4 flex flex-wrap gap-3">
+                    <a
+                      href="#recipe-card"
+                      className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#B33A3A] text-white text-xs font-bold uppercase tracking-wider rounded-full shadow-sm hover:bg-[#992F2F] transition-all"
+                    >
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                      </svg>
+                      Jump to Recipe
+                    </a>
+                  </div>
+                )}
               </div>
 
               {/* Main Image */}
